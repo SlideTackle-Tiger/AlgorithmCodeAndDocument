@@ -42,7 +42,7 @@
 ### 2. 买股票的最佳时机二
 
 力扣地址： https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/description/  
-项目代码：DBestTimeToBuyAndSellStockTwo.class
+项目代码：BBestTimeToBuyAndSellStockTwo.class
 
 简短描述： 对于一个prices数组表示每天都股票价格，你现在可以多次买入卖出股票（注意卖出操作要在买入操作之后完成），返回能获得的最大现金。
 
@@ -83,10 +83,10 @@
 - **确定遍历顺序：** 从1开始遍历prices数组即可 正序遍历
 - **打印dp数组：**
 
-### 23. 买卖股票的最大价值三
+### 3. 买卖股票的最大价值三
 
 力扣地址： https://leetcode.cn/problems/assign-cookies/description/  
-项目代码： DBestTimeToBuyAndSellStockThree.class
+项目代码： CBestTimeToBuyAndSellStockThree.class
 
 简短说明：在买卖股票的最大价值三中，买卖股票的次数来到了两次，你只可以至多买卖两次股票
 
@@ -129,7 +129,7 @@
 - **确定遍历顺序：** 从小到大从1开始遍历prices数组
 - **打印dp数组：**
 
-### 24. 买卖股票的最佳时机四
+### 4. 买卖股票的最佳时机四
 力扣地址： https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/description/  
 项目代码： DBestTimeToBuyAndSellStockFour.class    
 简要说明： 在买卖股票最佳时机四中，你的交易次数来到k次，需要注意的是卖出操作必须在持有状态下进行。  
@@ -174,10 +174,10 @@
 - 实现
 
 
-### 25. 最佳买卖股票时机含冷冻期
+### 5. 最佳买卖股票时机含冷冻期
 
 力扣地址： https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/  
-项目代码： DHouseRobberOne.class    
+项目代码： EBestTimeToBuyAndSellStockCooldown.class    
 简短描述： 现在你依旧可以多次买卖股票，但是在卖出股票的第二天为冷冻期，你不可以在第二天买入股票。
 核心代码：
 
@@ -226,9 +226,9 @@
     - ```卖出股票的最大金钱dp[i][2]``` 由持有股票的最大金钱加上今天的股价得到。
     - ```冷冻期dp[i][3]``` 由卖出股票的最大金钱得到。
 
-### 26. 买卖股票的最佳时机含手续费
+### 6. 买卖股票的最佳时机含手续费
 力扣地址： https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/  
-项目代码： DHouseRobberOne.class.
+项目代码： FBestTimeToBuyAndSellStockFee.class.
 简要描述： 其实就是在交易时，减去fee即可，交易次数不限制。
 核心代码：
 
